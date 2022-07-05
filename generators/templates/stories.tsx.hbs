@@ -1,0 +1,25 @@
+import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+
+import { {{pascalCase name}} } from '.'
+import { Wrapper, Component } from 'components/Exemple'
+
+export default {
+  title: '{{pascalCase name}}',
+  component: {{pascalCase name}},
+  argTypes: {
+    tooltip: {
+      control: false
+    }
+  }
+} as ComponentMeta<typeof {{pascalCase name}}>
+
+const Template: ComponentStory<typeof {{pascalCase name}}> = () => (
+  <Wrapper>
+    <{{pascalCase name}} duration="0.8s" delay="0.2s">
+      <Component>Hello World!</Component>
+    </{{pascalCase name}}>
+  </Wrapper>
+)
+
+export const {{pascalCase name}} = Template.bind({})

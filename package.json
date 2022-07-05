@@ -11,6 +11,7 @@
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "generate": "yarn plop --plopfile generators/plopfile.js",
     "postinstall": "husky install"
   },
   "repository": {
@@ -67,6 +68,7 @@
     "jest": "^27.4.5",
     "jest-styled-components": "^7.0.8",
     "lint-staged": "^13.0.3",
+    "plop": "^3.1.1",
     "prettier": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
