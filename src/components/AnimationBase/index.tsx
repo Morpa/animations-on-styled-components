@@ -13,15 +13,15 @@ type BaseAnimationProps = {
 
 export const BaseAnimation = styled.div<BaseAnimationProps>`
   ${({
-    duration = '1s',
-    timingFunction = 'ease',
-    delay = '0s',
-    iterationCount = '1',
-    direction = 'normal',
-    fillMode = 'both',
-    playState = 'running',
-    display = 'block'
-  }) => css`
+  duration = '1s',
+  timingFunction = 'ease',
+  delay = '0s',
+  iterationCount = '1',
+  direction = 'normal',
+  fillMode = 'both',
+  playState = 'running',
+  display = 'block'
+}) => css`
     animation-duration: ${duration};
     animation-timing-function: ${timingFunction};
     animation-delay: ${delay};
