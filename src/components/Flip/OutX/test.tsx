@@ -1,11 +1,11 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 
-import { LightSpeedIn } from '.'
+import { FlipOutX } from '.'
 
-describe('<LightSpeedIn />', () => {
+describe('<FlipOutX />', () => {
   it('should render correctly', () => {
-    const { container } = render(<LightSpeedIn />)
+    const { container } = render(<FlipOutX />)
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
@@ -27,10 +27,10 @@ describe('<LightSpeedIn />', () => {
       }
 
       .c1 {
-        -webkit-animation-name: hwxpsQ;
-        animation-name: hwxpsQ;
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
+        -webkit-animation-name: kmAeCd;
+        animation-name: kmAeCd;
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
       }
 
       <div
