@@ -1,5 +1,5 @@
 {
-  "name": "styled-components-animations",
+  "name": "animations-on-styled-components",
   "version": "1.0.0",
   "description": "Simple port of animate css for styled-components",
   "main": "dist/cjs/index.js",
