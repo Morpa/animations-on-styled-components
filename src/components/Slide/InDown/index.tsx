@@ -9,8 +9,8 @@ const SlideInDownAnimation = keyframes`
     to {
       transform: translate3d(0, 0, 0);
     }
-`;
+`
 
 export const SlideInDown = styled(BaseAnimation)`
   animation-name: ${SlideInDownAnimation};
-`;
+`
