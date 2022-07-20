@@ -1,4 +1,4 @@
-# styled-components-animations
+# animations-on-styled-components
 
 A simple port of animate css for styled-components
 
